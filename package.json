@@ -1,0 +1,23 @@
+{
+  "name": "inquiry-api",
+  "version": "1.0.0",
+  "description": "Contact form API for Chacoshiba-Systems",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "build": "tsc",
+    "serve": "node dist/main.js"
+  },
+  "dependencies": {
+    "@google-cloud/pubsub": "^4.0.0",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
